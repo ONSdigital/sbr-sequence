@@ -7,7 +7,8 @@ scalaVersion := "2.12.7"
 libraryDependencies ++= Seq(
   "org.apache.zookeeper" % "zookeeper" % "3.4.5-cdh5.13.1",
   "org.apache.curator" % "curator-framework" % "2.12.0",
-  "org.apache.curator" % "curator-recipes" % "2.12.0"
+  "org.apache.curator" % "curator-recipes" % "2.12.0",
+  "org.scalatest" %% "scalatest" % "3.0.5" % "test",
 )
 
 resolvers ++= Seq(
