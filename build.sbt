@@ -9,8 +9,7 @@ libraryDependencies ++= Seq(
   "org.apache.curator" % "curator-framework" % "2.12.0",
   "org.apache.curator" % "curator-recipes" % "2.12.0",
   "org.scalatest" %% "scalatest" % "3.0.5" % "test",
-  "org.apache.curator" % "curator-test" % "4.0.1" % Test
-
+  "org.apache.curator" % "curator-test" % "2.12.0" % Test
 )
 
 resolvers ++= Seq(
